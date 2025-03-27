@@ -227,18 +227,21 @@ toolbaritem:has(#zen-media-main-vbox) {
 
 /* Change the background color of the first pinned tab */
 .tabbrowser-tab[pinned]:nth-of-type(1) .tab-background {
-  background-color: rgba(255, 100, 100, 0.15) !important;
+  background-color: rgba(255, 157, 100, 0.15) !important;
+  border-radius: 12px !important;
   box-shadow: none !important;
 }
 
 /* Change the background color of the second pinned tab */
 .tabbrowser-tab[pinned]:nth-of-type(2) .tab-background {
-  background-color: rgba(255, 131, 93, 0.15) !important;
+  background-color: rgba(255, 93, 93, 0.15) !important;
+  border-radius: 12px !important;
   box-shadow: none !important;
 }
 
 .tabbrowser-tab[pinned] .tab-background {
 	border-top: 1px solid #ffffff1f !important;
+  border-radius: 12px !important;
 	border-bottom: 1px solid #0000001f !important;
 }
 
@@ -263,7 +266,7 @@ toolbaritem:has(#zen-media-main-vbox) {
 
 /* Change the HOVER background color of the second pinned tab hover */
 .tabbrowser-tab[pinned]:nth-of-type(2) .tab-background:is([selected], [multiselected]) {
-  background-color: rgba(255, 161, 161, 0.22) !important;
+  background-color: rgba(255, 222, 210, 0.22) !important;
   box-shadow: none !important;
 }
 
@@ -280,6 +283,7 @@ toolbaritem:has(#zen-media-main-vbox) {
 
 .tabbrowser-tab .tab-background{
   transition: background-color 0.2s ease;
+  border-radius: 10px !important;
 }
 
 .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-stack .tab-background {
@@ -368,6 +372,7 @@ toolbaritem:has(#zen-media-main-vbox) {
 
 #urlbar-background {
 	border: 1px solid #ffffff13 !important;
+  border-radius: 12px !important;
 }
 
 :root {
